@@ -24,6 +24,13 @@
       font-style: normal;
     }
 
+    .outfit-para {
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
     body{
       background-color: hsl(212, 45%, 89%);
     }
@@ -38,8 +45,8 @@
 
     #card{
       position: absolute;
-      width: 350px;
-      height: 500px;
+      width: 320px;
+      height: 499px;
       background-color: white;
       border-radius: 5%;
     }
@@ -50,14 +57,14 @@
     }
 
     img {
-      width: 300px;
-      height: 300px;
+      width: 288px;
+      height: 288px;
       border-radius: 5%;
     }
 
     #head {
       color: hsl(218, 44%, 22%);
-      font-size: 25px;
+      font-size: 22px;
       text-align: center;
     }
 
@@ -65,10 +72,12 @@
       color: hsl(216, 15%, 48%);
       font-size: 15px;
       text-align: center;
+      width: 256px;
+      margin: auto;
     }
 
     #card-body{
-      padding: 25px;
+      padding: 16px;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -78,10 +87,10 @@
   </style>
 </head>
 <body>
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Abhishek</a>.
-  </div>
+  </div> -->
   <div id="main">
     <div id="card">
       <div id="card-body">
@@ -91,7 +100,7 @@
         <div id="head" class="outfit-head">
           Improve your front-end skills by building projects
         </div>
-        <div id="description">
+        <div id="description" class="outfit-para">
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </div>
       </div>
